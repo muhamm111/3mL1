@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: "Inter";
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-nav{
+    border-bottom: 2px solid #DEDBDB;
+
+}
+.nav-title{
+    font-family: Inter;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top: 48px;
+padding-bottom: 53px;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.nav-title:before{
+    content: url(img/Vector\ \(10\).png);
+}
+.main_form{
+        border: 1px solid #DEDBDB;
+    border-radius: 50px;
+    width: 650px;
+    margin: auto;
+padding: 66px 50px 37px 64px;
+margin-top: 46px;
+
+}
+.form_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.form_nav-title{
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #F0400F;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.form_nav-title::after{
+    content: url(img/Vector\ \(11\).png);
+}
+.h1{
+    font-family: Inter;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 131px;
+margin-bottom: 20px;
+color: #0E0D5D;
+}
+.parent_student{
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 533px;
+    margin: auto;
+    height: 70px;align-items: center;
+    padding: 8px 11px;
+}
+.student{
+    padding: 10px 40px;
+    font-family: Inter;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: white;
+text-align: center;
+border-radius: 15px;
+}
+.parent{
+    padding: 10px 40px;
+    font-family: Inter;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #757575;
+}
+.input, .input1{
+    font-family: Inter;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #757575B2;
+background-color: #FAFAFA;
+border: 1px solid #75757530;
+width: 533px;
+border-radius: 20px ;
+padding: 20px;
+}
+.input{
+    margin-bottom: 39px;
+}
+.title{
+    padding-top: 39px;
+}
+.h3{
+    color: #000000A3;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+padding-top: 18px;
+text-align: center;    
+}
+button{
+    color: #FFFFFF;
+    background-color: #F69E86;
+    padding: 17px 10px;
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+border: none;
+border-radius: 20px;
+margin-top: 31px;
+}
+.btn{
+    justify-content: end;
+    display: flex;
+}
